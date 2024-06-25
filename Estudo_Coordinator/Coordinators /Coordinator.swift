@@ -5,4 +5,9 @@
 //  Created by Debora Rodrigues  on 25/06/24.
 //
 
-import Foundation
+import UIKit
+
+protocol Coordinator {
+    var navigationController: UINavigationController { get set }
+    func start()
+}
