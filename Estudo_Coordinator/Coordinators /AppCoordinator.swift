@@ -19,3 +19,4 @@ class AppCoordinator: Coordinator {
         mainCoordinator.start()
     }
 }
+
