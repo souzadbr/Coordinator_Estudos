@@ -22,6 +22,9 @@
 		6A0E0C6B2C2B324A00DA0FC0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0E0C6A2C2B324A00DA0FC0 /* SecondViewController.swift */; };
 		6A0E0C6E2C2DA15F00DA0FC0 /* ViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0E0C6D2C2DA15F00DA0FC0 /* ViewDelegate.swift */; };
 		6A0E0C702C2DA19F00DA0FC0 /* ThirdViewController .swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0E0C6F2C2DA19F00DA0FC0 /* ThirdViewController .swift */; };
+		6A0E0C732C2DC6F400DA0FC0 /* DataCollectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0E0C722C2DC6F400DA0FC0 /* DataCollectionDelegate.swift */; };
+		6A0E0C752C2DC75E00DA0FC0 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0E0C742C2DC75E00DA0FC0 /* SummaryViewController.swift */; };
+		6A0E0C772C2DC82C00DA0FC0 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0E0C762C2DC82C00DA0FC0 /* FourthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,9 @@
 		6A0E0C6A2C2B324A00DA0FC0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		6A0E0C6D2C2DA15F00DA0FC0 /* ViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDelegate.swift; sourceTree = "<group>"; };
 		6A0E0C6F2C2DA19F00DA0FC0 /* ThirdViewController .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ThirdViewController .swift"; sourceTree = "<group>"; };
+		6A0E0C722C2DC6F400DA0FC0 /* DataCollectionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollectionDelegate.swift; sourceTree = "<group>"; };
+		6A0E0C742C2DC75E00DA0FC0 /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
+		6A0E0C762C2DC82C00DA0FC0 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +117,7 @@
 		6A0E0C2F2C2B31A600DA0FC0 /* Estudo_Coordinator */ = {
 			isa = PBXGroup;
 			children = (
-				6A0E0C6C2C2DA14A00DA0FC0 /* View */,
+				6A0E0C6C2C2DA14A00DA0FC0 /* Delegates */,
 				6A0E0C672C2B322500DA0FC0 /* ViewsControllers */,
 				6A0E0C602C2B31DB00DA0FC0 /* Coordinators  */,
 				6A0E0C302C2B31A600DA0FC0 /* AppDelegate.swift */,
@@ -157,16 +163,19 @@
 				6A0E0C682C2B323A00DA0FC0 /* FirstViewController.swift */,
 				6A0E0C6A2C2B324A00DA0FC0 /* SecondViewController.swift */,
 				6A0E0C6F2C2DA19F00DA0FC0 /* ThirdViewController .swift */,
+				6A0E0C762C2DC82C00DA0FC0 /* FourthViewController.swift */,
+				6A0E0C742C2DC75E00DA0FC0 /* SummaryViewController.swift */,
 			);
 			path = ViewsControllers;
 			sourceTree = "<group>";
 		};
-		6A0E0C6C2C2DA14A00DA0FC0 /* View */ = {
+		6A0E0C6C2C2DA14A00DA0FC0 /* Delegates */ = {
 			isa = PBXGroup;
 			children = (
 				6A0E0C6D2C2DA15F00DA0FC0 /* ViewDelegate.swift */,
+				6A0E0C722C2DC6F400DA0FC0 /* DataCollectionDelegate.swift */,
 			);
-			path = View;
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,14 +310,17 @@
 			files = (
 				6A0E0C6B2C2B324A00DA0FC0 /* SecondViewController.swift in Sources */,
 				6A0E0C622C2B31FD00DA0FC0 /* AppCoordinator.swift in Sources */,
+				6A0E0C732C2DC6F400DA0FC0 /* DataCollectionDelegate.swift in Sources */,
 				6A0E0C6E2C2DA15F00DA0FC0 /* ViewDelegate.swift in Sources */,
 				6A0E0C352C2B31A600DA0FC0 /* ViewController.swift in Sources */,
+				6A0E0C772C2DC82C00DA0FC0 /* FourthViewController.swift in Sources */,
 				6A0E0C662C2B321B00DA0FC0 /* Coordinator.swift in Sources */,
 				6A0E0C702C2DA19F00DA0FC0 /* ThirdViewController .swift in Sources */,
 				6A0E0C312C2B31A600DA0FC0 /* AppDelegate.swift in Sources */,
 				6A0E0C642C2B320F00DA0FC0 /* MainCoordinator.swift in Sources */,
 				6A0E0C332C2B31A600DA0FC0 /* SceneDelegate.swift in Sources */,
 				6A0E0C692C2B323A00DA0FC0 /* FirstViewController.swift in Sources */,
+				6A0E0C752C2DC75E00DA0FC0 /* SummaryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
