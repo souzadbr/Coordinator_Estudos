@@ -6,11 +6,15 @@ Este projeto é um exemplo básico de uma aplicação iOS utilizando ViewCode pa
 
 O objetivo deste projeto é demonstrar como configurar um aplicativo iOS sem o uso de Storyboards, utilizando ViewCode para criar a interface programaticamente e o padrão Coordinator para organizar a navegação entre as telas.
 
+Entre a Second e ThirdViewController foi usado delegate para navegação para usar de exemplo para aplicacoes que não tem coordinator implmentado. 
+
+Foi feito um delegate entre as ultimas telas para carregar informacoes coletadas de uma tela e gerar um resumo ou recibo na ultima tela também como exemplo de usop de delegate para arrastar dados de uma controler para outra. 
+
 ## Estrutura do Projeto
 
 O projeto está estruturado da seguinte forma:
 
-<img width="312" alt="Captura de Tela 2024-06-25 às 14 54 56" src="https://github.com/souzadbr/Coordinator_Estudos/assets/81527964/0fdb47b1-6bf5-4cea-95fd-28b8ad10d0ee">
+<img width="312" alt="Captura de Tela 2024-06-28 às 08.18.45" src="https://github.com/souzadbr/Coordinator_Estudos/assets/81527964/0fdb47b1-6bf5-4cea-95fd-28b8ad10d0ee">
 
 
 ## Passos Realizados
@@ -42,4 +46,31 @@ protocol Coordinator {
     var navigationController: UINavigationController { get set }
     func start()
 }
+
+2. **Implementar AppCoordinator**:
+    - Criar um arquivo AppCoordinator.swift na pasta Coordinators.
+    
+3. **Implementar MainCoordinator**:
+    - Criar um arquivo MainCoordinator.swift na pasta Coordinators.
+    
+4. **Adicionar as ViewControllers**:
+    - Criar FirstViewController:
+    - Criar um arquivo FirstViewController.swift na pasta ViewControllers.
+    
+5. **Criar SecondViewController**:
+    - Criar um arquivo SecondViewController.swift na pasta ViewControllers.
+    
+6. **Criar ThirdViewController**:
+    - Criar um arquivo ThirdViewController.swift na pasta ViewControllers.
+
+7. **Criar FourthViewController**:
+    - Criar um arquivo FourthViewController.swift na pasta ViewControllers.
+    
+8. **Criar SummaryViewController**:
+    - Criar um arquivo SummaryViewController.swift na pasta ViewControllers.
+    
+  ##  Conclusão
+Este projeto demonstra como configurar uma aplicação iOS utilizando ViewCode, constraints e o padrão Coordinator, sem o uso de Storyboards. A utilização desses padrões e práticas ajuda a manter o código organizado, modular e fácil de manter, além de proporcionar maior flexibilidade na construção de interfaces e navegação.
+
+
 
