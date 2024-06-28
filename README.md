@@ -14,8 +14,7 @@ Foi feito um delegate entre as ultimas telas para carregar informacoes coletadas
 
 O projeto está estruturado da seguinte forma:
 
-<img width="312" alt="Captura de Tela 2024-06-28 às 08.18.45" src="https://github.com/souzadbr/Coordinator_Estudos/assets/81527964/0fdb47b1-6bf5-4cea-95fd-28b8ad10d0ee">
-
+<img width="394" alt="Captura de Tela 2024-06-28 às 08 18 45" src="https://github.com/souzadbr/Coordinator_Estudos/assets/81527964/55927464-c10c-448b-8d56-34d8e9422f2b">
 
 ## Passos Realizados
 
